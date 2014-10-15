@@ -13,6 +13,8 @@
 		651E57BB19EEC03D0060586A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 651E57BA19EEC03D0060586A /* Images.xcassets */; };
 		651E57BE19EEC03D0060586A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 651E57BC19EEC03D0060586A /* LaunchScreen.xib */; };
 		651E57CA19EEC03D0060586A /* HttpClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651E57C919EEC03D0060586A /* HttpClientTests.swift */; };
+		651E57D719EEC1830060586A /* HttpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651E57D619EEC1830060586A /* HttpClient.swift */; };
+		651E57D919EEC5860060586A /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651E57D819EEC5860060586A /* DemoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		651E57C319EEC03D0060586A /* HttpClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HttpClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		651E57C819EEC03D0060586A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		651E57C919EEC03D0060586A /* HttpClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpClientTests.swift; sourceTree = "<group>"; };
+		651E57D619EEC1830060586A /* HttpClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpClient.swift; sourceTree = "<group>"; };
+		651E57D819EEC5860060586A /* DemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +81,14 @@
 		651E57B019EEC03D0060586A /* HttpClient */ = {
 			isa = PBXGroup;
 			children = (
+				651E57D519EEC1030060586A /* vendor */,
 				651E57B319EEC03D0060586A /* AppDelegate.swift */,
 				651E57B519EEC03D0060586A /* ViewController.swift */,
 				651E57B719EEC03D0060586A /* Main.storyboard */,
 				651E57BA19EEC03D0060586A /* Images.xcassets */,
 				651E57BC19EEC03D0060586A /* LaunchScreen.xib */,
 				651E57B119EEC03D0060586A /* Supporting Files */,
+				651E57D819EEC5860060586A /* DemoViewController.swift */,
 			);
 			path = HttpClient;
 			sourceTree = "<group>";
@@ -110,6 +116,14 @@
 				651E57C819EEC03D0060586A /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		651E57D519EEC1030060586A /* vendor */ = {
+			isa = PBXGroup;
+			children = (
+				651E57D619EEC1830060586A /* HttpClient.swift */,
+			);
+			name = vendor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -214,6 +228,8 @@
 			files = (
 				651E57B619EEC03D0060586A /* ViewController.swift in Sources */,
 				651E57B419EEC03D0060586A /* AppDelegate.swift in Sources */,
+				651E57D719EEC1830060586A /* HttpClient.swift in Sources */,
+				651E57D919EEC5860060586A /* DemoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

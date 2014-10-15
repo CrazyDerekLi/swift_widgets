@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>1B1B4473-B96A-455E-898C-E4067F74B0B0</string>
+	<key>IDESourceControlProjectName</key>
+	<string>HttpClient</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>6B7EDF80FB42169F3D223629BE4614B52EAF6E08</key>
+		<string>https://github.com/CrazyDerekLi/swift_widgets.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Function/HttpClient/HttpClient.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>6B7EDF80FB42169F3D223629BE4614B52EAF6E08</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/CrazyDerekLi/swift_widgets.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>6B7EDF80FB42169F3D223629BE4614B52EAF6E08</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>6B7EDF80FB42169F3D223629BE4614B52EAF6E08</string>
+			<key>IDESourceControlWCCName</key>
+			<string>swift_widgets</string>
+		</dict>
+	</array>
+</dict>
+</plist>
